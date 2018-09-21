@@ -105,8 +105,8 @@ To complete Part II, fulfill the following requirements:
   * Set the direction of the elements to a column using flexbox.
 6. Target the ```class``` of "row".
   * Set the ```width``` to 100%.
-  * Set the ```height``` to 20%.
   * Activate flexbox!
+  * Set the ```height``` to 20%.
   * Set the direction of elements to row using flexbox.
 7. Target the ```class``` of "day".
   * Use the property ```flex-grow``` to make the items take up the same width to fill up the row. Look up the property flex-grow and see what it does!

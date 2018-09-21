@@ -1,0 +1,73 @@
+body{
+    margin: 5px;
+    border: 5px solid;
+    background: rgb(207, 183, 44);
+ }
+ .container{
+     border-style: solid;
+     border-width: 1px;
+     width: 100%;
+     height: 100%;
+     background: rgb(222, 255, 102);
+ }
+ #title{
+     border: 2px solid;
+     display: flex;
+     justify-content: center;
+     background: black;
+     color: rgb(207, 183, 44);
+ }
+ #days-of-week{
+     border-style: solid;
+     border-width: 10px;
+     justify-content: center;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     background: black;
+     color: rgb(207, 183, 44);
+ }
+ #day-container{
+     justify-content: center;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     
+ }
+ .row{
+    display: flex;
+    flex-direction: row;
+ justify-content: space-around;
+     width: 100%;
+     height: 100%;
+ }
+ .day{
+     border: solid 2px;
+  margin:50px;
+     justify-content: space-around;
+     padding:20px;
+     background: black;
+     color: rgb(207, 183, 44);
+ }
+ #bottom{
+     display: flex;
+     flex-direction: row;
+     margin-left: 57px;
+     justify-content: left;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     
+ }
+ .bottomOne{
+    background: black;
+    color: rgb(207, 183, 44);
+     display: flex;
+     border: 2px solid;
+     margin:50px;
+     margin-right:160px;
+     justify-content:space-between;
+     padding: 20px;
+    
+ }
