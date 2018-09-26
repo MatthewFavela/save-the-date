@@ -1,73 +1,84 @@
-body{
-    margin: 5px;
-    border: 5px solid;
-    background: rgb(207, 183, 44);
- }
+/*Container of the whole calender*/
  .container{
-     border-style: solid;
-     border-width: 1px;
      width: 100%;
      height: 100%;
      background: rgb(222, 255, 102);
  }
- #title{
-     border: 2px solid;
-     display: flex;
-     justify-content: center;
-     background: black;
-     color: rgb(207, 183, 44);
- }
- #days-of-week{
-     border-style: solid;
-     border-width: 10px;
-     justify-content: center;
+
+ /*Here is using flex for each row*/
+ .row{
      display: flex;
      flex-direction: row;
-     justify-content: space-around;
-     background: black;
-     color: rgb(207, 183, 44);
- }
- #day-container{
-     justify-content: center;
-     width: 100%;
-     height: 100%;
-     display: flex;
-     flex-direction: column;
-     
- }
- .row{
-    display: flex;
-    flex-direction: row;
- justify-content: space-around;
      width: 100%;
      height: 100%;
  }
+
+
+/*BODY STANDARDS */
+ body{
+    margin: 5px;
+    background: rgb(0, 0, 0);
+ }
+
+ /*Standards for each day*/
  .day{
      border: solid 2px;
-  margin:50px;
-     justify-content: space-around;
-     padding:20px;
-     background: black;
+  margin:10px;
+     padding:30px;
+  background: black;
      color: rgb(207, 183, 44);
+     width: 100px;
+     height: 25px;
  }
- #bottom{
-     display: flex;
-     flex-direction: row;
+/*Special Effects*/
+ .day:hover{
+     background: gray;
+     padding: 35px;
+     color: black;
+    }
+
+    /*last row i couldt get to work*/
+ #roow{
      margin-left: 57px;
-     justify-content: left;
      width: 100%;
      height: 100%;
      display: flex;
      
  }
+
+ /*bottom row standards*/
  .bottomOne{
     background: black;
     color: rgb(207, 183, 44);
      display: flex;
      border: 2px solid;
      margin:50px;
-     margin-right:160px;
-     justify-content:space-between;
+     margin-right:10px;
      padding: 20px;
+     width: 100px;
+     height: 25px;
     
  }
+/*Special Effects!*/
+ .bottomOne:hover{
+    background: gray;
+    padding: 35px;
+    color: black;
+ }
+
+ /*Septiembre title standards*/
+ #title{
+    position: relative;
+    left: 400px;
+    font-size: 50px;
+    color:rgb(222, 255, 102);
+}
+
+/*DOTW standards*/
+#days-of-week{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: black;
+    color: rgb(207, 183, 44);
+}
